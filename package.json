@@ -10,11 +10,12 @@
   "author": "Akinari Tsugo",
   "license": "MIT",
   "devDependencies": {
-    "del": "^3.0.0",
-    "eslint": "^4.19.1",
-    "gulp": "^3.9.1",
+    "del": "^6.0.0",
+    "eslint": "^7.16.0",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
+    "npm-check-updates": "^10.2.5",
     "require-dir": "^1.2.0"
   },
   "dependencies": {
