@@ -6,7 +6,7 @@
   "scripts": {
     "gulp": "gulp",
     "build-dev": "export NODE_ENV=development && gulp",
-    "build-prod": "export NODE_ENV=production && gulp", // 参考：https://riptutorial.com/ja/node-js/example/10101/node-env----production-%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B
+    "build-prod": "export NODE_ENV=production && gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Akinari Tsugo",
