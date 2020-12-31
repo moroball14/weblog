@@ -6,24 +6,21 @@
   "scripts": {
     "gulp": "gulp",
     "build-dev": "export NODE_ENV=development && gulp",
-    "build-prod": "export NODE_ENV=production && gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-prod": "export NODE_ENV=production && gulp"
   },
   "author": "Akinari Tsugo",
   "license": "MIT",
   "devDependencies": {
-    "del": "^6.0.0",
-    "eslint": "^7.16.0",
+    "del": "^4.1.1",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
-    "npm-check-updates": "^10.2.5",
     "require-dir": "^1.2.0"
   },
   "dependencies": {
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
   }
 }

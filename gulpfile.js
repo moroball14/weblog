@@ -9,7 +9,7 @@
 // });
 
 var config = require("./gulp/config.js");
-var { series, parallel } = require("gulp");
+var { series, parallel, task } = require("gulp");
 var requireDir = require("require-dir");
 var tasks, development, production;
 
@@ -26,8 +26,8 @@ development = series(
 production = series(
   tasks["clean-log"],
   tasks["copy-third_party"],
-  tasks["copy-images"],
-  tasks["minify-javascripts"]
+  tasks["copy-images"]
+  // tasks["minify-javascripts"]
   // tasks["compile-sass"]
 );
 
