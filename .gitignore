@@ -40,6 +40,8 @@
 # Dependency directories
 node_modules/
 
+# log
+
 # # Snowpack dependency directory (https://snowpack.dev/)
 # web_modules/
 
