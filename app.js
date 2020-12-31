@@ -1,7 +1,6 @@
 var systemlogger = require("./lib/log/systemlogger.js");
 var express = require("express");
 var app = express();
-var logger = require("./lib/log/logger.js").console;
 
 app.set("view engine", "ejs");
 app.disable("x-powered-by");
@@ -12,5 +11,10 @@ app.use("/", require("./routes/index.js"));
 
 app.use(systemlogger());
 
+//------
+var logger = require("./lib/log/logger.js").application;
+// logger.addContext("key", "test");
+logger.error("test2", "message2");
+//------
+
 app.listen(3000);
-logger.info("start.");
