@@ -1,1 +1,5 @@
-var sample=function(o){o+="hoge",console.log(o)};sample();
+var sample = function (message) {
+  message += "hoge";
+  console.log(message);
+};
+sample();
