@@ -10,3 +10,4 @@ app.use("/public", express.static(__dirname + "/public" + (process.env.NODE_ENV 
 app.use("/", require("./routes/index.js"));
 
 app.listen(3000);
+logger.info("start.");
