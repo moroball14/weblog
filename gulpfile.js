@@ -27,12 +27,12 @@ production = series(
   tasks["clean-log"],
   tasks["copy-third_party"],
   tasks["copy-images"],
-  // tasks["minify-javascripts"]
+  tasks["minify-javascripts"],
   tasks["compile-sass"]
 );
 
 module.exports = {
-  "compile-sass": series(tasks["compile-sass"]),
+  "minify-javascripts": series(tasks["minify-javascripts"]),
   development,
   production,
   default: config.env.IS_DEVELOPMENT ? development : production
