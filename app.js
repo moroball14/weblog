@@ -11,10 +11,4 @@ app.use("/", require("./routes/index.js"));
 
 app.use(systemlogger());
 
-//------
-var logger = require("./lib/log/logger.js").application;
-// logger.addContext("key", "test");
-logger.error("test2", "message2");
-//------
-
 app.listen(3000);
