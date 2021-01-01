@@ -41,6 +41,9 @@
 node_modules/
 
 # log
+log/access/
+log/application/
+log/system/
 
 # # Snowpack dependency directory (https://snowpack.dev/)
 # web_modules/
