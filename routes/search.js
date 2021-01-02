@@ -23,7 +23,7 @@ router.get("/*", (req, res) => {
         .find(query)
         .sort({ published: -1 })
         .skip((page - 1) * MAX_ITEM_PER_PAGE)
-        .limit(MAX_ITEM_PER_PAGE)
+        .limit(Number(MAX_ITEM_PER_PAGE))
         .toArray()
     ]).then((results) => {
       var data = {
